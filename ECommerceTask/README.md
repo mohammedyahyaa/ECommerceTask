@@ -425,6 +425,29 @@ ECommerceTask/
 - **Transaction Safety**: Order creation is transactional (all or nothing)
 - **Password Security**: Passwords are hashed using BCrypt
 
+## Docker Deployment
+
+The application can be run using Docker and Docker Compose.
+
+### Quick Start with Docker
+
+1. **Build and start:**
+   ```bash
+   docker-compose up --build
+   ```
+
+2. **Start in background:**
+   ```bash
+   docker-compose up -d --build
+   ```
+
+3. **Stop:**
+   ```bash
+   docker-compose down
+   ```
+
+See `DOCKER_SETUP.md` for detailed Docker instructions.
+
 ## License
 
 This project is for educational purposes.

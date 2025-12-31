@@ -1,0 +1,13 @@
+target/
+.idea/
+*.iml
+.git/
+.gitignore
+README.md
+*.md
+data/
+.mvn/
+mvnw
+mvnw.cmd
+HELP.md
+
