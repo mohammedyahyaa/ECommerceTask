@@ -425,7 +425,5 @@ ECommerceTask/
 - **Transaction Safety**: Order creation is transactional (all or nothing)
 - **Password Security**: Passwords are hashed using BCrypt
 
-## License
 
-This project is for educational purposes.
 
